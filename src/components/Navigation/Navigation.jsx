@@ -6,9 +6,9 @@ export function Navigation() {
             <h1>Esdras</h1>
             <nav>
                 <a href="#home">Home</a>
-                <a href="#">About</a>
-                <a href="#">Education</a>
-                <a href="#">Skills</a>
+                <a href="#about">Sobre</a>
+                <a href="#">Projetos</a>
+                <a href="#">Habilidades</a>
             </nav>
         </header>
     )
