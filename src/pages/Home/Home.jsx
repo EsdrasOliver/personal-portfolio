@@ -1,6 +1,6 @@
 import Github from "../../assets/icon/github.svg"
 import Linkedin from "../../assets/icon/linkedin.svg"
-import Instagram from "../../assets/icon/instagram.svg"
+import Curriculum from "../../assets/icon/file.svg"
 import Profile from "../../assets/img/profile.svg"
 
 import "./styles.css"
@@ -25,8 +25,8 @@ export function Home() {
                 <a href="https://www.linkedin.com/in/esdras-oliveira-446b261a3/" target="_blank" rel='noreferrer'>
                     <img src={Linkedin} alt="Icone do Linkedin" />
                 </a>
-                <a href="https://www.instagram.com/esdras_odj/" target="_blank" rel='noreferrer'>
-                    <img src={Instagram} alt="Icone do Instagram" />
+                <a href="#" target="_blank" rel='noreferrer'>
+                    <img src={Curriculum} alt="Icone do Instagram" />
                 </a>
             </div>
         </section>
