@@ -8,7 +8,7 @@ export function Navigation() {
                 <a href="#home">Home</a>
                 <a href="#about">Sobre</a>
                 <a href="#projects">Projetos</a>
-                <a href="#">Habilidades</a>
+                <a href="#skills">Habilidades</a>
             </nav>
         </header>
     )
