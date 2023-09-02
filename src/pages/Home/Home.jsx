@@ -1,9 +1,7 @@
-import Github from "../../assets/icon/github.svg"
-import Linkedin from "../../assets/icon/linkedin.svg"
-import Curriculum from "../../assets/icon/file.svg"
 import Profile from "../../assets/img/profile.svg"
 
 import "./styles.css"
+import { Networks } from "../../components/Networks/Networks"
 
 export function Home() {
     return (
@@ -19,15 +17,7 @@ export function Home() {
                 </div>
             </div>
             <div className="networks-navigation">
-                <a href="https://github.com/EsdrasOliver" target="_blank" rel='noreferrer'>
-                    <img src={Github} alt="Icone do GitHub" />
-                </a>
-                <a href="https://www.linkedin.com/in/esdras-oliveira-446b261a3/" target="_blank" rel='noreferrer'>
-                    <img src={Linkedin} alt="Icone do Linkedin" />
-                </a>
-                <a href="#" target="_blank" rel='noreferrer'>
-                    <img src={Curriculum} alt="Icone do Instagram" />
-                </a>
+                <Networks></Networks>
             </div>
         </section>
     )
