@@ -27,7 +27,7 @@
     letter-spacing: 0.07rem;
     margin-bottom: 1rem;
 }
-
+/* 
 .tools {
     display: flex;
     justify-content: space-between;
@@ -57,7 +57,7 @@
     font-style: normal;
     font-weight: 500;
     letter-spacing: 0.04rem;
-}
+} */
 
 footer {
     padding: 5rem;
@@ -71,9 +71,9 @@ footer {
 
 .container-footer-text {
     align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .container-footer-text span {

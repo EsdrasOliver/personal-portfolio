@@ -3,7 +3,7 @@ import Linkedin from "../../assets/icon/linkedin.svg"
 /* import Instagram from "../../assets/icon/instagram.svg" */
 import Curriculum from "../../assets/icon/file.svg"
 
-import HTML from "../../assets/icon/languages/html5.svg"
+/* import HTML from "../../assets/icon/languages/html5.svg"
 import CSS from "../../assets/icon/languages/css3.svg"
 import Figma from "../../assets/icon/languages/figma.svg"
 import github from "../../assets/icon/languages/github.svg"
@@ -11,16 +11,20 @@ import JavaScript from "../../assets/icon/languages/javascript.svg"
 import Node from "../../assets/icon/languages/node.svg"
 import React from "../../assets/icon/languages/react.svg"
 import Tailwind from "../../assets/icon/languages/tailwind-css.svg"
-import Typescript from "../../assets/icon/languages/typescript.svg"
+import Typescript from "../../assets/icon/languages/typescript.svg" */
 
 import "./styles.css"
+import { Tools } from "../../components/Tools/Tools"
 
 export function Skills() {
     return (
         <section className="container-skills" id="skills">
             <div className="container-content-skills">
                 <h2>Habilidades</h2>
-                <div className="container-tools">
+
+                <Tools></Tools>
+
+                {/* <div className="container-tools">
 
                     <div className="tools">
                         <div className="tool">
@@ -60,7 +64,7 @@ export function Skills() {
                             <span>Node</span>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
             <footer>
                 <div className="container-footer-text">
