@@ -1,0 +1,10 @@
+.button-close {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+}
+
+.button-close svg path {
+    stroke: var(--color-button);
+}
