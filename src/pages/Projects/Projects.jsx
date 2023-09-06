@@ -3,6 +3,7 @@ import "./styles.css"
 
 import { ModalProject1 } from "../../components/Modais/ModalProject1/ModalProject1.modal.jsx"
 import { ModalProject2 } from "../../components/Modais/ModalProject2/ModalProject2.modal.jsx"
+import { ModalProject3 } from "../../components/Modais/ModalProject3/ModalProject3.modal.jsx"
 
 import { Button } from './../../components/Button/Button';
 
@@ -10,9 +11,8 @@ export function Projects() {
 
     const [showModal1, setShowModal1] = useState(false)
     const [showModal2, setShowModal2] = useState(false)
-   
-
-
+    const [showModal3, setShowModal3] = useState(false)
+    
     const openModal1 = () => {
         setShowModal1(true)
     }
@@ -29,7 +29,13 @@ export function Projects() {
         setShowModal2(false)
     }
 
-    
+    const openModal3 = () => {
+        setShowModal3(true)
+    }
+
+    const closeModal3 = () => {
+        setShowModal3(false)
+    }
 
     const clickProject1 = () => {
         const link = 'http://gerador-senhas.rf.gd/'
@@ -79,7 +85,7 @@ export function Projects() {
                     </div>
                     {showModal2 && <ModalProject2 onClose={closeModal2}></ModalProject2>}
 
-                    <div className="box">
+                    <div className="box" onClick={() => openModal3()}>
                         <div className="project" id="project3">
                             <div className="details">
                                 <p>Lista de tarefas</p>
@@ -91,7 +97,7 @@ export function Projects() {
                             <Button onClick={clickProject3}>Ver mais</Button>
                         </div>
                     </div>
-                    
+                    {showModal3 && <ModalProject3 onClose={closeModal3}></ModalProject3>}
 
                 </div>
             </div>
