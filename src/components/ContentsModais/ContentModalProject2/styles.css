@@ -1,0 +1,22 @@
+.container-contect-modal-project2 {
+    width: 50rem;
+    height: 20rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+}
+
+.container-content-main {
+    width: 100%;
+}
+
+.container-features {
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+}

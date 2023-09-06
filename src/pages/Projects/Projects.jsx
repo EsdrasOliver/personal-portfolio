@@ -2,22 +2,48 @@ import { useState } from "react"
 import "./styles.css"
 
 import { ModalProject1 } from "../../components/Modais/ModalProject1/ModalProject1.modal.jsx"
+import { ModalProject2 } from "../../components/Modais/ModalProject2/ModalProject2.modal.jsx"
+
 import { Button } from './../../components/Button/Button';
 
 export function Projects() {
 
-    const [showModal, setShowModal] = useState(false)
+    const [showModal1, setShowModal1] = useState(false)
+    const [showModal2, setShowModal2] = useState(false)
+   
 
-    const openModal = () => {
-        setShowModal(true)
+
+    const openModal1 = () => {
+        setShowModal1(true)
     }
 
-    const closeModal = () => {
-        setShowModal(false)
+    const closeModal1 = () => {
+        setShowModal1(false)
     }
 
-    const handleClick = () => {
-        console.log('botao clicou')
+    const openModal2 = () => {
+        setShowModal2(true)
+    }
+
+    const closeModal2 = () => {
+        setShowModal2(false)
+    }
+
+    
+
+    const clickProject1 = () => {
+        const link = 'http://gerador-senhas.rf.gd/'
+        window.open(link, '_blank')
+    }
+
+    const clickProject2 = () => {
+        const link = 'https://conversor-moedas-esdras.vercel.app/'
+        window.open(link, '_blank')
+    }
+
+    const clickProject3 = () => {
+        const link = 'https://task-list-nu.vercel.app/'
+        window.open(link, '_blank')
     }
 
     return (
@@ -26,21 +52,20 @@ export function Projects() {
             <div className="content-projects">
                 <h2>Projetos</h2>
                 <div className="projects">
-                    <div className="box" onClick={() => openModal()}>
+                    <div className="box" onClick={() => openModal1()}>
                         <div className="project" id="project1">
                             <div className="details">
                                 <p>Gerador de senhas em PHP</p>
                             </div>
-                            
                         </div>
                         <div className="container-view-more">
                             <p>Gerador de senhas em PHP</p>
-                            <Button onClick={handleClick}>Ver mais</Button>
+                            <Button onClick={clickProject1}>Ver mais</Button>
                         </div>
                     </div>
-                    {showModal && <ModalProject1 onClose={closeModal}></ModalProject1>}
+                    {showModal1 && <ModalProject1 onClose={closeModal1}></ModalProject1>}
 
-                    <div className="box">
+                    <div className="box" onClick={() => openModal2()}>
                         <div className="project" id="project2">
                             <div className="details">
                                 <p>Conversor de moedas</p>
@@ -49,9 +74,10 @@ export function Projects() {
                         </div>
                         <div className="container-view-more">
                             <p>Conversor de moedas</p>
-                            <Button onClick={handleClick}>Ver mais</Button>
+                            <Button onClick={clickProject2}>Ver mais</Button>
                         </div>
                     </div>
+                    {showModal2 && <ModalProject2 onClose={closeModal2}></ModalProject2>}
 
                     <div className="box">
                         <div className="project" id="project3">
@@ -62,9 +88,11 @@ export function Projects() {
                         </div>
                         <div className="container-view-more">
                             <p>Lista de tarefas</p>
-                            <Button onClick={handleClick}>Ver mais</Button>
+                            <Button onClick={clickProject3}>Ver mais</Button>
                         </div>
                     </div>
+                    
+
                 </div>
             </div>
         </section>
