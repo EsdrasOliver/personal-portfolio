@@ -1,0 +1,147 @@
+.container-about {
+    background-color: var(--alternative-color);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+h2 {
+    color: var(--color-title);
+    margin: 0;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.125rem;
+    letter-spacing: 0.0625rem;
+    text-align: center;
+}
+
+.container-content-images {
+    display: flex;
+    gap:10rem;
+}
+
+.container-main-content-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8rem;
+}
+
+.container-content-about {
+    display: flex;
+    width: 60rem;
+    height: 20rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.container-content-about p {
+    color: var(--color-text);
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem; 
+    letter-spacing: 0.07rem;
+    text-align: justify;
+}
+
+.container-content-about p span {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: 0.07rem;
+}
+
+.container-content-about h3 {
+    color: var(--color-text);
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.12rem; 
+    letter-spacing: 0.06rem;
+    text-align: center;
+}
+
+.EmailCopy {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.EmailCopy span {
+    color: var(--color-text);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.12rem; 
+    letter-spacing: 0.07rem;
+
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 0 1rem;
+}
+
+button {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 0.6rem;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 1s ease-in;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+button.copied, button.copied:hover, button.copied:active {
+    background-color: #28a745; 
+}
+
+button.copied::after {
+    content: "Email Copiado";
+    display: inline-block;
+    margin-left: 5px;
+}
+
+button.copied:disabled {
+    background-color: #007bff; 
+    color: #fff;
+    cursor: not-allowed;
+}
+
+.container-language-image {
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.container-image-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-image-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.container-language-image img {
+    width: 9.375rem;
+    height: 9.375rem;
+    flex-shrink: 0;
+}
