@@ -2,7 +2,7 @@ import Github from "../../assets/icon/github.svg"
 import Linkedin from "../../assets/icon/linkedin.svg"
 import Curriculum from "../../assets/icon/file.svg"
 
-import "./styles.css"
+import "./styles.modules.css"
 
 export function Networks() {
     return (

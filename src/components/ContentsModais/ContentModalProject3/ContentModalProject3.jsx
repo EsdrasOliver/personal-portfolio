@@ -1,4 +1,4 @@
-import "./styles.css"
+import "./styles.modules.css"
 import { Button } from './../../Button/Button';
 
 export function ContentModalProject3() {

@@ -8,7 +8,7 @@ import React from "../../assets/icon/languages/react.svg"
 import Tailwind from "../../assets/icon/languages/tailwind-css.svg"
 import Typescript from "../../assets/icon/languages/typescript.svg"
 
-import "./styles.css"
+import "./styles.modules.css"
 
 export function Tools() {
     return (

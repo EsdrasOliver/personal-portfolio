@@ -1,6 +1,6 @@
 import Profile from "../../assets/img/profile.svg"
 
-import "./styles.css"
+import "./styles.modules.css"
 import { Networks } from "../../components/Networks/Networks"
 
 export function Home() {

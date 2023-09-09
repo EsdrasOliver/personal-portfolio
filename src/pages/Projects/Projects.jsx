@@ -1,5 +1,5 @@
 import { useState } from "react"
-import "./styles.css"
+import "./styles.modules.css"
 
 import { Modal } from "../../components/Modal/Modal"
 import { ContentModalProject1 } from './../../components/ContentsModais/ContentModalProject1/ContentModalProject1';
