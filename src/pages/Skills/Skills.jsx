@@ -1,4 +1,4 @@
-import "./styles.css"
+import "./styles.modules.css"
 import { Tools } from "../../components/Tools/Tools"
 import { Networks } from "../../components/Networks/Networks"
 

@@ -18,14 +18,23 @@
 }
 
 .container-content-skills h2 {
-    text-align: center;
+    /* text-align: center;
     color: var(--color-title);
     font-size: 1.56rem;
     font-style: normal;
     font-weight: 500;
     line-height: 3.12rem; 
     letter-spacing: 0.07rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; */
+
+    color: var(--color-title);
+    margin: 0;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.125rem;
+    letter-spacing: 0.0625rem;
+    text-align: center;
 }
 
 footer {
