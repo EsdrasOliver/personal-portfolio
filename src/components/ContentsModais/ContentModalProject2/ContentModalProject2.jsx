@@ -8,6 +8,11 @@ export function ContentModalProject2() {
         window.open(link, '_blank')
     }
 
+    const sourceGithubLink = () => {
+        const link = 'https://github.com/EsdrasOliver/conversor-moedas'
+        window.open(link, '_blank')
+    }
+
     return (
         <div className="container-contect-modal-project2">
             <div className="container-content-main">
@@ -20,7 +25,8 @@ export function ContentModalProject2() {
                 <p>- No select serve para escolha para qual moeda (Dolar americano, Euro ou Bitcoin), você deseja ver a cotação</p>
                 <p>- E no final verifica o resultado que você escolheu.</p>
             </div>
-            <div>
+            <div className="container-link-buttons">
+                <Button onClick={sourceGithubLink}>Código GitHub</Button>
                 <Button onClick={websiteLink}>Acessar projeto</Button>
             </div>
         </div>

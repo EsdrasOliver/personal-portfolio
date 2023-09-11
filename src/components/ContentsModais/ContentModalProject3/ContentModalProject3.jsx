@@ -8,6 +8,11 @@ export function ContentModalProject3() {
         window.open(link, '_blank')
     }
 
+    const sourceGithubLink = () => {
+        const link = 'https://github.com/EsdrasOliver/task-list'
+        window.open(link, '_blank')
+    }
+
     return (
         <div className="container-contect-modal-project3">
             <div className="container-content-main">
@@ -21,7 +26,8 @@ export function ContentModalProject3() {
                 <p>- Poderá marcar como concluída ou excluir a tarefa.</p>
                 <p>- Mesmo que você saia da aplicação, as tarefas deixadas não apagaram ou sofreram alguma alteração.</p>
             </div>
-            <div>
+            <div className="container-link-buttons">
+                <Button onClick={sourceGithubLink}>Código GitHub</Button>
                 <Button onClick={websiteLink}>Acessar projeto</Button>
             </div>
         </div>

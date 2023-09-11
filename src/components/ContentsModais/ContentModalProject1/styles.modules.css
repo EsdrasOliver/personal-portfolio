@@ -16,3 +16,8 @@
 ul li {
   list-style: none;
 }
+
+.container-link-buttons {
+  display: flex;
+  gap: 5rem;
+}

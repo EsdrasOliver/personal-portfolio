@@ -8,6 +8,11 @@ export function ContentModalProject1() {
         window.open(link, '_blank')
     }
 
+    const sourceGithubLink = () => {
+        const link = 'https://github.com/EsdrasOliver/gerador-senhas-php'
+        window.open(link, '_blank')
+    }
+
     return (
         <div className="container-contect-modal-project1">
             <div>
@@ -19,7 +24,8 @@ export function ContentModalProject1() {
                 <p>Através das escolhas no checkboxs e do input o usuário pode gerar a senha.</p>
                 <p>Com o botão &ldquo;Copiar&rdquo; pode copiar a senha e usar onde quiser.</p>
             </div>
-            <div>
+            <div className="container-link-buttons">
+                <Button onClick={sourceGithubLink}>Código GitHub</Button>
                 <Button onClick={websiteLink}>Acessar projeto</Button>
             </div>
         </div>
