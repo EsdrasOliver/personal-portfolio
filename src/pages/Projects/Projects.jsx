@@ -66,7 +66,7 @@ export function Projects() {
                                 <p>Lista de tarefas</p>
                             </div>
                         </div>
-                        <div className="container-view-more">
+                        <div className="container-view-more" id="last-container-view-more">
                             <p>Lista de tarefas</p>
                             <p>Junho, 2023</p>
                         </div>

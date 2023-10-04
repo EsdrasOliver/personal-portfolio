@@ -145,3 +145,61 @@ button.copied:disabled {
     height: 9.375rem;
     flex-shrink: 0;
 }
+
+
+@media (max-width: 1600px) {
+    .container-content-about {
+        width: 45rem;
+    }
+
+    .container-content-about p {
+        margin-bottom: 2rem;
+    }
+
+    .EmailCopy button {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1300px) {
+    .container-content-images {
+        gap: 5rem;
+    }
+    .container-language-image {
+        width: 20rem;
+    }
+    .container-image-top {
+        gap: 2rem;
+    }
+    .container-image-top img, .container-image-bottom img {
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container-main-content-about h2 {
+        font-size: 2rem;
+    }
+    .container-content-about h3 {
+        font-size: 1.4rem;
+    }
+    .EmailCopy span, .EmailCopy button {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .container-main-content-about h2 {
+        font-size: 2rem;
+    }
+    .container-language-image {
+        display: none;
+    }
+    .container-content-about {
+        width: 60rem;
+    }
+    .container-content-about p, .container-content-about span {
+        font-size: 1.5rem;
+    }
+}

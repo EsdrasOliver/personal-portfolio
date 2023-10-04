@@ -17,8 +17,8 @@ h2 {
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 3.125rem;
-    letter-spacing: 0.0625rem;
+    line-height: 3.12rem;
+    letter-spacing: 0.06rem;
     text-align: center;
 }
 
@@ -26,6 +26,7 @@ h2 {
     display: flex;
     flex-direction: row;
     gap: 4rem;
+    flex-wrap: nowrap;
 }
 
 .box {
@@ -89,5 +90,47 @@ h2 {
 @media (max-width: 1700px) {
     .project {
         width: 30rem;
+    }
+}
+
+@media (max-width: 1600px) {
+    .project {
+        width: 25rem;
+    }
+}
+
+@media (max-width: 1300px) {
+    .projects {
+        gap: 2rem;
+    }
+    .box {
+        padding: 2rem 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .projects {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 900px) {
+    .content-projects h2 {
+        font-size: 2rem;
+    }
+    .container-view-more {
+        width: 40rem;
+    }
+    .container-view-more p {
+        font-size: 1.5rem;
+    }
+    .projects {
+        justify-content: center;
+    }
+    .project {
+        width: 40rem;
+    }
+    #project3, #last-container-view-more {
+        display: none;
     }
 }

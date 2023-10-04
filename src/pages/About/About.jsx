@@ -39,8 +39,8 @@ export function About() {
                                 {emailCopied ? "" : "Copiar email"}
                             </button>
                         </div>
-                        </div>
-                        <div className="container-language-image">
+                    </div>
+                    <div className="container-language-image">
                         <div className="container-image-top">
                             <img src={react} alt="Imagem do react.js" />
                             <img src={typescript} alt="Imagem do Typescript" />

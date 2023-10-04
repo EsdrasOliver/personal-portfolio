@@ -37,3 +37,18 @@
 .button-close svg path {
     stroke: var(--color-button);
 }
+
+@media (max-width: 900px) {
+    .container-modal .title-modal {
+        font-size: 1.5rem;
+    }
+    .container-modal .content-modal {
+        font-size: 1.2rem;
+    }
+    .container-modal .container-features h4 {
+        font-size: 1.3rem;
+    }
+    .container-modal .container-features p {
+        font-size: 1.2rem;
+    }
+}
