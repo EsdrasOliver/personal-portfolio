@@ -1,10 +1,17 @@
 :root {
-    --main-color: #69d2e7;
+    /* --main-color: #69d2e7;
     --secondary-color: #a7dbd8;
     --alternative-color: #e0e4cc;
     --color-title: #fa6900;
     --color-text: #f38630;
-    --color-button: #f38630;
+    --color-button: #f38630; */
+
+    --main-color: #000;
+    --secondary-color: #028fd1;
+    --alternative-color: #161617;
+    --color-title: #fff;
+    --color-text: #fff;
+    --color-button: #3AB9F6;
 }
 
 * {

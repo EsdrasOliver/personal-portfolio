@@ -1,6 +1,9 @@
 .tools {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
 }
 
 .tool {
@@ -12,7 +15,7 @@
     flex-direction: column;
     flex-shrink: 0;
     border-radius: 0.5rem;
-    border: 1px solid #FA6900;
+    border: 1px solid #5c5c5c;
     gap: 1rem;
 }
 

@@ -4,7 +4,7 @@ import { Button } from './../../Button/Button';
 export function ContentModalProject1() {
 
     const websiteLink = () => {
-        const link = 'http://gerador-senhas.rf.gd/'
+        const link = 'https://esdrasodej.xo.je/'
         window.open(link, '_blank')
     }
 

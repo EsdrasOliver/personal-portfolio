@@ -77,11 +77,11 @@ h2 {
 }
 
 .EmailCopy span {
-    color: var(--color-text);
+    color: #000;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 3.12rem; 
+    line-height: 2.5rem; 
     letter-spacing: 0.07rem;
 
     background-color: #fff;
@@ -95,9 +95,9 @@ button {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
-    padding: 0.6rem;
+    padding: 0.6rem 1rem;
     border-radius: 8px;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
     transition: 1s ease-in;
 }
