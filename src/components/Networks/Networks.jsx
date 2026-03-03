@@ -13,7 +13,7 @@ export function Networks() {
             <a href="https://www.linkedin.com/in/esdras-oliveira-446b261a3/" target="_blank" rel='noreferrer'>
                 <img src={Linkedin} alt="Icone do Linkedin" />
             </a>
-            <a href="../../assets/doc/EsdrasOliveira.pdf" download target="_blank" rel='noreferrer'>
+            <a href="/EsdrasOliveira.pdf" download="EsdrasOliveira.pdf">
                 <img src={Curriculum} alt="Icone de arquivo" />
             </a>
         </div>
