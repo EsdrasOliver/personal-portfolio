@@ -28,16 +28,24 @@ export function About() {
                 <h2>Sobre</h2>
                 <div className="container-content-images">
                     <div className="container-content-about">
-                        <p>Desenvolvedor Front end com experiência em <span>React</span>, <span>Typescript</span>, <span>Styled Components</span>, <span>TaiwindCSS</span> e consumo de APIs. Comecei na programação na faculdade de Sistema de informação pelo IFBA e estudo de forma autodidata desenvolvimento web, criando APIs com Node, express, nodemon, PostgreSQL e produzindo interfaces atraentes e reutilizáveis no front end junto com designs criados no Figma.</p>
-                        <h3>Meu Email para contato</h3>
-                        <div className="EmailCopy">
-                            <span ref={emailRef}>esdrasodej@gmail.com</span>
-                            <button 
-                                onClick={handleEmailCopy} 
-                                className={emailCopied ? "copied" : ""}
-                            >
-                                {emailCopied ? "" : "Copiar email"}
-                            </button>
+                        <p>
+                            Possuo sólida atuação no ecossistema <span>JavaScript/TypeScript</span>, desenvolvendo aplicações web completas utilizando <span>Angular, React e Next.js no Front-End</span>, com foco em componentização, reutilização de código e boas práticas de arquitetura.<br/>
+
+                            No back-end, tenho experiência no desenvolvimento de APIs robustas e escaláveis utilizando <span>Node.js e NestJS</span>, além de trabalhar com <span>Docker</span> para conteinerização e <span>PostgreSQL com Prisma ORM</span> para modelagem e persistência de dados.<br/>
+
+                            Tenho vivência na integração entre Front-End e Back-End, garantindo comunicação eficiente com APIs REST, além de contribuir com melhorias contínuas em sistemas, correção de bugs e evolução de funcionalidades.
+                        </p>
+                        <div>
+                            <h3>Meu Email para contato</h3>
+                            <div className="EmailCopy">
+                                <span ref={emailRef}>esdrasodej@gmail.com</span>
+                                <button 
+                                    onClick={handleEmailCopy} 
+                                    className={emailCopied ? "copied" : ""}
+                                >
+                                    {emailCopied ? "" : "Copiar email"}
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div className="container-language-image">

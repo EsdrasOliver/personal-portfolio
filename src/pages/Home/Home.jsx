@@ -9,7 +9,7 @@ export function Home() {
             <div className="container-content-photo">
                 <div className="container-title-content">   
                     <p>Oi, meu nome é Esdras Oliveira</p>
-                    <h2 className="title">Desenvolvedor Front End</h2>
+                    <h2 className="title">Desenvolvedor Full Stack</h2>
                     <span className="content">Admirador do mundo da tecnologia e profissional na área.</span>
                 </div>
                 <div className="container-photo">
