@@ -10,7 +10,7 @@ export function Networks() {
             <a href="https://github.com/EsdrasOliver" target="_blank" rel='noreferrer'>
                 <img src={Github} alt="Icone do GitHub" />
             </a>
-            <a href="https://www.linkedin.com/in/esdras-oliveira-446b261a3/" target="_blank" rel='noreferrer'>
+            <a href="https://www.linkedin.com/in/esdrasdejesus/" target="_blank" rel='noreferrer'>
                 <img src={Linkedin} alt="Icone do Linkedin" />
             </a>
             <a href="/EsdrasOliveira.pdf" download="EsdrasOliveira.pdf">
